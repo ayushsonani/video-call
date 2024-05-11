@@ -15,6 +15,50 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
+
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    // ZegoUIKitPrebuiltCallInvitationService().init(
+    //   appID: 409753841 /*input your AppID*/,
+    //   appSign: '32c1e6dc70266e7e451d1891316dacae59935855e56ab98253cbd095786b1e85' /*input your AppSign*/,
+    //   userID: FirebaseAuth.instance.currentUser!.uid.toString(),
+    //   userName: FirebaseAuth.instance.currentUser!.uid.toString(),
+    //   notificationConfig: ZegoCallInvitationNotificationConfig(
+    //     androidNotificationConfig: ZegoCallAndroidNotificationConfig(
+    //       showFullScreen: true,
+    //       fullScreenBackground: 'assets/image/call.png',
+    //       channelID: "videocall",
+    //       channelName: "Call Notifications",
+    //       sound: "call",
+    //       icon: "call",
+    //     ),
+    //     iOSNotificationConfig: ZegoCallIOSNotificationConfig(
+    //       systemCallingIconName: 'CallKitIcon',
+    //     ),
+    //   ),
+    //   requireConfig: (ZegoCallInvitationData data) {
+    //     final config = (data.invitees.length > 1)
+    //         ? ZegoCallType.videoCall == data.type
+    //         ? ZegoUIKitPrebuiltCallConfig.groupVideoCall()
+    //         : ZegoUIKitPrebuiltCallConfig.groupVoiceCall()
+    //         : ZegoCallType.videoCall == data.type
+    //         ? ZegoUIKitPrebuiltCallConfig.oneOnOneVideoCall()
+    //         : ZegoUIKitPrebuiltCallConfig.oneOnOneVoiceCall();
+    //
+    //     config.avatarBuilder = customAvatarBuilder;
+    //
+    //     /// support minimizing, show minimizing button
+    //     config.topMenuBar.isVisible = true;
+    //     config.topMenuBar.buttons
+    //         .insert(0, ZegoCallMenuBarButtonName.minimizingButton);
+    //     return config;
+    //   },
+    //   plugins: [ZegoUIKitSignalingPlugin()],
+    // );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
