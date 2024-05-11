@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "872370767003",
+    "project_id": "videocall-fa0cb",
+    "storage_bucket": "videocall-fa0cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872370767003:android:9f5a4e8b4fcde27f49723e",
+        "android_client_info": {
+          "package_name": "com.example.video_call"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872370767003-uesscvmh5fv0ua2ehhh1rovfb5328a38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1UxCsuPplppZDgAggT-w2OoCGf7ZrRnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872370767003-uesscvmh5fv0ua2ehhh1rovfb5328a38.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "872370767003-4jvi1hcg1frd7h3l2gj31li20eh4ji6o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.videocall"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872370767003:android:182cebde656a849a49723e",
+        "android_client_info": {
+          "package_name": "com.example.videocall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872370767003-kucfn9f9smtmldq90iouh0dilv7766kq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.videocall",
+            "certificate_hash": "8e6c8eea75cc8dcb4ee7495bc1839b74a02cf797"
+          }
+        },
+        {
+          "client_id": "872370767003-uesscvmh5fv0ua2ehhh1rovfb5328a38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1UxCsuPplppZDgAggT-w2OoCGf7ZrRnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872370767003-uesscvmh5fv0ua2ehhh1rovfb5328a38.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "872370767003-4jvi1hcg1frd7h3l2gj31li20eh4ji6o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.videocall"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
